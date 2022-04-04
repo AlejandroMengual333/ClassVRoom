@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+
+  django_app:
+    build: .
+    restart: always
+    ports:
+      - 8000:8000
+    environment:
+      - DATABASE_URL=sqlite:///db.sqlite3
+      - DEBUG=False
+      - SECRET_KEY=asecretkeyblabla
+    volumes:
+      - ./db.sqlite3:/code/db.sqlite3

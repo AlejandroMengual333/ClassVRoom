@@ -133,3 +133,4 @@ AUTH_USER_MODEL = 'classroomvr.User'
 LOGIN_REDIRECT_URL='dashboard'
 LOGOUT_REDIRECT_URL='login'
 django_heroku.settings(locals())
+del DATABASES['default']['OPTIONS']['sslmode']

@@ -35,27 +35,27 @@ Para la instalación y uso del proyecto, una vez cumplidos los requisitos, nos d
 
 ```  - $ git clone https://github.com/AlejandroMengual333/ClassVRoom<br/> ```
 
-Acto seguido le daremos permisos para no tener problemas a la carpeta
+Acto seguido le daremos permisos para no tener problemas a la carpeta<br/>
 
 ``` - $ sudo chmod -R 777 ClassVRoom/ <br/>```
 
-Entramos a la carpeta "ClassVRoom" y creamos un fichero "db.sqlite3"
-```- $ sudo touch db.sqlite3 ```
+Entramos a la carpeta "ClassVRoom" y creamos un fichero "db.sqlite3"<br/>
+```- $ sudo touch db.sqlite3 ``` y ```- $ sudo chmod 777 db.sqlite3 ``` <br/>
 
-Levantaremos el docker.
-```- $ docker-compose up -d --build```
+Levantaremos el docker.<br/>
+```- $ docker-compose up -d --build```<br/>
 
-Realizaremos "docker ps -a" para identificar el ID del container para acceder a el.
-```-$ docker ps -a```
+Realizaremos "docker ps -a" para identificar el ID del container para acceder a el.<br/>
+```-$ docker ps -a```<br/>
 
-Una vez localizado el ID del container accederemos a el.
-```-$ docker exec -ti IDContainer /bin/bash```
+Una vez localizado el ID del container accederemos a el.<br/>
+```-$ docker exec -ti IDContainer /bin/bash```<br/>
 
-Ya dentro del container haremos la migración.
-```-$ ./manage.py migration```
+Ya dentro del container haremos la migración.<br/>
+```-$ ./manage.py migration```<br/>
 
-Y seguidamente crearemos los grupos con el script facilitado por los compañeros de DAW.
-```-$ ./manage.py creategroups```
+Y seguidamente crearemos los grupos con el script facilitado por los compañeros de DAW.<br/>
+```-$ ./manage.py creategroups```<br/>
 
 ## Equipo
 El equipo ha sido compuesto por 6 alumnos, 3 de DAW y 3 de CIBER del instituto Esteve Terradas i Illa.

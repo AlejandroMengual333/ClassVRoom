@@ -79,3 +79,11 @@ El equipo ha sido compuesto por 6 alumnos, 3 de DAW y 3 de CIBER del instituto E
 * Alejandro Mengual
   * [Github](https://github.com/AlejandroMengual333) 
   * [Discord: AEME#2170]
+ 
+* Jose Paredes
+  * [Github](https://github.com/JoseParedes1) 
+  * [Discord: JoseParedes25#7365]
+  
+* Isaac Cerezo
+  * [Github](https://github.com/isaaccerezo) 
+  * [Discord: Isaaccb10#4373]

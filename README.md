@@ -33,29 +33,29 @@ El primer requisito que se necesita para poder utilizar este proyecto es tener i
 ## Instalación y uso del proyecto
 Para la instalación y uso del proyecto, una vez cumplidos los requisitos, nos descargarmos el proyecto, no instalamos dependencias ya que de eso se encarga el Docker-compose.<br/>
 
-```bash  - $ git clone https://github.com/AlejandroMengual333/ClassVRoom<br/> ```
+```  - $ git clone https://github.com/AlejandroMengual333/ClassVRoom<br/> ```
 
 Acto seguido le daremos permisos para no tener problemas a la carpeta
 
-```bash - $ sudo chmod -R 777 ClassVRoom/ <br/>```
+``` - $ sudo chmod -R 777 ClassVRoom/ <br/>```
 
 Entramos a la carpeta "ClassVRoom" y creamos un fichero "db.sqlite3"
-- $ sudo touch db.sqlite3 
+```- $ sudo touch db.sqlite3 ```
 
 Levantaremos el docker.
-- $ docker-compose up -d --build
+```- $ docker-compose up -d --build```
 
 Realizaremos "docker ps -a" para identificar el ID del container para acceder a el.
--$ docker ps -a
+```-$ docker ps -a```
 
 Una vez localizado el ID del container accederemos a el.
--$ docker exec -ti IDContainer /bin/bash
+```-$ docker exec -ti IDContainer /bin/bash```
 
 Ya dentro del container haremos la migración.
--$ ./manage.py migration
+```-$ ./manage.py migration```
 
 Y seguidamente crearemos los grupos con el script facilitado por los compañeros de DAW.
--$ ./manage.py creategroups
+```-$ ./manage.py creategroups```
 
 ## Equipo
 El equipo ha sido compuesto por 6 alumnos, 3 de DAW y 3 de CIBER del instituto Esteve Terradas i Illa.

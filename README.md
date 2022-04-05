@@ -42,7 +42,7 @@ Acto seguido le daremos permisos para no tener problemas a la carpeta
 ## Equipo
 El equipo ha sido compuesto por 6 alumnos, 3 de DAW y 3 de CIBER del instituto Esteve Terradas i Illa.
 
-* DAW
+## DAW
 
 * Carlos Fernández
   * [Github](https://github.com/bycarlos28) 
@@ -56,7 +56,7 @@ El equipo ha sido compuesto por 6 alumnos, 3 de DAW y 3 de CIBER del instituto E
   * [Github](https://github.com/carlosvalgar) 
   * [Discord: Carvagia#1404]
  
-* CIBER
+## CIBER
 
 * Alejandro Mengual
   * [Github](https://github.com/AlejandroMengual333) 

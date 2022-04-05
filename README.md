@@ -39,6 +39,9 @@ Acto seguido le daremos permisos para no tener problemas a la carpeta
 
 - $ sudo chmod -R 777 ClassVRoom/ <br/>
 
+Entramos a la carpeta "ClassVRoom" y creamos un fichero "db.sqlite3"
+- $ sudo touch db.sqlite3 
+
 ## Equipo
 El equipo ha sido compuesto por 6 alumnos, 3 de DAW y 3 de CIBER del instituto Esteve Terradas i Illa.
 

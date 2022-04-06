@@ -1,7 +1,7 @@
 # Proyecto ClassVRoom
 
 ## Descripción de Proyecto
-El proyecto trata de hacer una página web que gestione cursos para que profesores puedan colgar material para sus alumnos y los alumnos puedan subir ejercicios y ver el feedback de su profesor.
+El proyecto trata de Dockerizar la pagina de los compañeros de DAW que gestiona cursos para que profesores puedan colgar material para sus alumnos y los alumnos puedan subir ejercicios y ver el feedback de su profesor.
 
 ## Requisitos
 El primer requisito que se necesita para poder utilizar este proyecto es tener instalado Python.

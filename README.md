@@ -33,13 +33,13 @@ El primer requisito que se necesita para poder utilizar este proyecto es tener i
 ## Instalación y uso del proyecto
 Para la instalación y uso del proyecto, una vez cumplidos los requisitos, nos descargarmos el proyecto, no instalamos dependencias ya que de eso se encarga el Docker-compose.<br/>
 
-```  - $ git clone https://github.com/AlejandroMengual333/ClassVRoom<br/> ```
+```  - $ git clone https://github.com/AlejandroMengual333/ClassVRoom```<br/> 
 
-Acto seguido le daremos permisos para no tener problemas a la carpeta<br/>
+Acto seguido le daremos permisos para no tener problemas a la carpeta <br/>
 
 ``` - $ sudo chmod -R 777 ClassVRoom/ <br/>```
 
-Entramos a la carpeta "ClassVRoom" y creamos un fichero "db.sqlite3"<br/>
+Entramos a la carpeta "ClassVRoom" y creamos un fichero "db.sqlite3" <br/>
 ```- $ sudo touch db.sqlite3 ``` y ```- $ sudo chmod 777 db.sqlite3 ``` <br/>
 
 Levantaremos el docker.<br/>

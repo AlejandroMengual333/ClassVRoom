@@ -8,9 +8,9 @@ El primer requisito que se necesita para poder utilizar este proyecto es tener i
 
   Linux: <br/>
   
-    - $ sudo apt-get update<br/>
-    - $ sudo apt-get install python3.6<br/>
-    El numero del python determina la version de este que vas a instalar.<br/>
+    - $ sudo apt-get update
+    - $ sudo apt-get install python3.6
+    El numero del python determina la version de este que vas a instalar.
   
   Windows:<br/>
   
@@ -26,8 +26,8 @@ El primer requisito que se necesita para poder utilizar este proyecto es tener i
    
   El segundo requisito será instalar git y docker-compose para poder clonar el proyecto y trabajar con el mediante dockers..<br/>
  
-    - $ apt install git<br/>
-    - $ apt install docker-compose<br/>
+    - $ apt install git
+    - $ apt install docker-compose
     
     
 ## Instalación y uso del proyecto

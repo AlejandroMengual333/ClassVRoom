@@ -26,8 +26,8 @@ El primer requisito que se necesita para poder utilizar este proyecto es tener i
    
   El segundo requisito será instalar git y docker-compose para poder clonar el proyecto y trabajar con el mediante dockers..<br/>
  
-    - $ apt install git
-    - $ apt install docker-compose
+    - $ sudo apt install git
+    - $ sudo apt install docker-compose
     
     
 ## Instalación y uso del proyecto

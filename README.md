@@ -57,6 +57,11 @@ Ya dentro del container haremos la migración.<br/>
 Y seguidamente crearemos los grupos con el script facilitado por los compañeros de DAW.<br/>
 ```-$ ./manage.py creategroups```<br/>
 
+Tambien podemos crear un usuario para entrar al apartado de admin<br/>
+```-$ ./manage.py createsuperuser```<br/>
+
+Apartir de aqui ya podemos entrar a nuestro front end de classVRoom mediante NUESTRA_IP:8000 o al back end mediante NUESTRA_IP:8000/admin e ingresamos la cuenta que creamos como superuser.
+
 ## Equipo
 El equipo ha sido compuesto por 6 alumnos, 3 de DAW y 3 de CIBER del instituto Esteve Terradas i Illa.
 

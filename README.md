@@ -52,7 +52,7 @@ Una vez localizado el ID del container accederemos a el.<br/>
 ```-$ docker exec -ti IDContainer /bin/bash```<br/>
 
 Ya dentro del container haremos la migración.<br/>
-```-$ ./manage.py migration```<br/>
+```-$ ./manage.py migrate```<br/>
 
 Y seguidamente crearemos los grupos con el script facilitado por los compañeros de DAW.<br/>
 ```-$ ./manage.py creategroups```<br/>

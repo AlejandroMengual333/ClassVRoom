@@ -14,9 +14,9 @@ El primer requisito que se necesita para poder utilizar este proyecto es tener i
   
   Windows:<br/>
   
-    - Nos vamos a la página oficial de Python: https://www.python.org/downloads/<br/>
-    - Descargar el archivo .exe de Python<br/>
-    - Ejecutar el archivo .exe de Python y seguir las instrucciones<br/>
+    - Nos vamos a la página oficial de Python: https://www.python.org/downloads/
+    - Descargar el archivo .exe de Python
+    - Ejecutar el archivo .exe de Python y seguir las instrucciones
     
     
    
@@ -37,7 +37,7 @@ Para la instalación y uso del proyecto, una vez cumplidos los requisitos, nos d
 
 Acto seguido le daremos permisos para no tener problemas a la carpeta <br/>
 
-``` - $ sudo chmod -R 777 ClassVRoom/ <br/>```
+``` - $ sudo chmod -R 777 ClassVRoom/ ``` <br/>
 
 Entramos a la carpeta "ClassVRoom" y creamos un fichero "db.sqlite3" <br/>
 ```- $ sudo touch db.sqlite3 ``` y ```- $ sudo chmod 777 db.sqlite3 ``` <br/>
